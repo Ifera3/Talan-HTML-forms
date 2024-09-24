@@ -9,3 +9,8 @@ div.entering {
     text-align: center;
     background-color:violet;
 }
+
+input {
+    background-color:aquamarine;
+    color:brown;
+}
