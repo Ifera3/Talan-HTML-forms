@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="formStyle.css">
+
+    <title>
+        DnD sign up page
+    </title>
+
+</head>
+
+<body>
+
+    <h1>
+        Definitly a DnD sign up page
+    </h1>
+
+    <form>
+
+        <div>
+            <label for="cname">
+                Charecter Name: 
+            </label>
+            <input type="text" id="cname" name="cname" placeholder="Tom" required>
+            <label  class="required">*</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="home">
+                Home: 
+            </label>
+            <input type="text" id="home" name="home" placeholder="Londan" required>
+            <label  class="required">*</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="class">
+                Class: 
+            </label>
+
+            <label for="bard">
+                Bard
+            </label>
+            <input type="radio" id="bard" name="class" value="brad">
+
+            <label for="driud">
+                Driud
+            </label>
+            <input type="radio" id="driud" name="class" value="druid">
+
+            <label for="monk">
+                Monk
+            </label>
+            <input type="radio" id="monk" name="class" value="monk">
+
+            <label for="fighter">
+                Fighter
+            </label>
+            <input type="radio" id="fighter" name="class" value="fighter">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="race">
+                Race: 
+            </label>
+            <select id="race" name="race" required>
+                <option value="human">Human</option>
+                <option value="elf">Elf</option>
+                <option value="dwarf">Dwarf</option>
+                <option value="dragonBorn">Dragon Born</option>
+            </select>
+            <label  class="required">*</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dateFirstPlayd">
+                Date first playd: 
+            </label>
+            <input type="date" id="dateFirstPlayd" name="dateFirstPlayd">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="gamesPlayed">
+                Game played:
+            </label>
+            <input type="number" id="gamesPlayed" name="gamesPlayed" min="0" placeholder="1" required>
+            <label  class="required">*</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dm">
+                Have you been a DM:
+            </label>
+            <input type="checkbox" id="dm" name="dm" required>
+            <label  class="required">*</label>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset" id="reset" name="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="button" id="enter" name="enter" value="Submit">
+        </div>
+
+    </form>
+</body>
+
+</html>
