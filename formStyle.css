@@ -1,3 +1,11 @@
 .required {
     color: red;
 }
+
+div.entering {
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 80px;
+    text-align: center;
+    background-color:violet;
+}
