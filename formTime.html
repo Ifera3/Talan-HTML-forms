@@ -15,27 +15,26 @@
 <body>
 
     <h1>
-        Definitly a DnD sign up page
+        Definitly a Dungen and Dragons sign up page
     </h1>
 
     <form>
-
-        <div class="entering">
-            <label for="cname">
-                Charecter Name: 
-            </label>
-            <input type="text" id="cname" name="cname" placeholder="Tom" required>
-            <label  class="required">*</label>
-        </div>
-
-        <br>
-
-        <div class="entering">
-            <label for="home">
-                Home: 
-            </label>
-            <input type="text" id="home" name="home" placeholder="Londan" required>
-            <label  class="required">*</label>
+        <div class="two">
+            <span class="numberTwo">
+                <label for="cname">
+                    Charecter Name: 
+                </label>
+                <input type="text" id="cname" name="cname" placeholder="Tom" required>
+                <label  class="required">*</label>
+            </span>
+            
+            <span class="numberTwo">
+                <label for="home">
+                    Home: 
+                </label>
+                <input type="text" id="home" name="home" placeholder="Londan" required>
+                <label  class="required">*</label>
+            </span>
         </div>
 
         <br>
@@ -89,19 +88,19 @@
         <br>
 
         <div class="entering">
-            <label for="dateFirstPlayd">
-                Date first playd: 
+            <label for="datePlay">
+                Date avalible to play: 
             </label>
-            <input type="date" id="dateFirstPlayd" name="dateFirstPlayd">
+            <input type="date" id="datePlay" name="datePlay">
         </div>
 
         <br>
 
         <div class="entering">
             <label for="gamesPlayed">
-                Game played:
+                Games played:
             </label>
-            <input type="number" id="gamesPlayed" name="gamesPlayed" min="0" placeholder="1" required>
+            <input type="number" id="gamesPlayed" name="gamesPlayed" min="0" max="256" placeholder="1" required>
             <label  class="required">*</label>
         </div>
 
@@ -109,7 +108,7 @@
 
         <div class="entering">
             <label for="dm">
-                Have you been a DM:
+                Have you been a Dungen Master before:
             </label>
             <input type="checkbox" id="dm" name="dm" required>
             <label  class="required">*</label>
@@ -117,14 +116,14 @@
 
         <br>
 
-        <div class="entering">
-            <input type="reset" id="reset" name="reset">
-        </div>
+        <div class="two">
+            <span class="numberTwo">
+                <input type="reset" id="reset" name="reset">
+            </span>
 
-        <br>
-
-        <div class="entering">
-            <input type="button" id="enter" name="enter" value="Submit">
+            <span class="numberTwo">
+                <input type="button" id="enter" name="enter" value="Submit">
+            </span>
         </div>
 
     </form>
